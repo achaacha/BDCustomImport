@@ -25,7 +25,7 @@
 	--avatar-roundness: 50%;
 	--background-shading: 100%;
 	--background-overlay: rgba(0, 0, 0, .6);
-	--background-image: url(https://w.wallhaven.cc/full/0j/wallhaven-0jpjvy.jpg);
+	--background-image: url(https://achaacha.github.io/BDCustomImport/wallhaven-0jpjvy.jpg);
 	--background-position: center;
 	--background-size: cover;
 	--background-repeat: no-repeat;
@@ -1518,14 +1518,14 @@ ul.tree-3tCaw8 {
 }
 
 .container-3baos1:before {
-	content: "Acha";
+	content: "Don't forget";
 	right: 50%;
 	text-align: right;
 	transform: translateX(50%)
 }
 
 .container-3baos1:after {
-	content: "Hello, Friend";
+	content: "what made you.";
 	left: 50%;
 	text-align: left;
 	opacity: 0;
