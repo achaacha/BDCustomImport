@@ -4,15 +4,15 @@
 /*! Powered by DiscordSelectors v0.2.7 */
 
 :root {
-	--main-color: #2780e6;
+	--main-color: #52616b;
 	--hover-color: #1e63b3;
 	--success-color: #43b581;
 	--danger-color: #982929;
-	--channel-unread: var(--main-color);
+	--channel-unread: #f0f5f9;
 	--channel-color: rgba(255, 255, 255, 0.3);
 	--muted-color: rgba(255, 255, 255, 0.1);
 	--channel-text-selected: #fff;
-	--url-color: var(--main-color);
+	--url-color: #3490de;
 	--online-color: #43b581;
 	--idle-color: #faa61a;
 	--dnd-color: #982929;
@@ -25,7 +25,7 @@
 	--avatar-roundness: 50%;
 	--background-shading: 100%;
 	--background-overlay: rgba(0, 0, 0, .6);
-	--background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
+	--background-image: url(https://w.wallhaven.cc/full/0j/wallhaven-0jpjvy.jpg);
 	--background-position: center;
 	--background-size: cover;
 	--background-repeat: no-repeat;
@@ -1518,14 +1518,14 @@ ul.tree-3tCaw8 {
 }
 
 .container-3baos1:before {
-	content: "ClearVision";
+	content: "Acha";
 	right: 50%;
 	text-align: right;
 	transform: translateX(50%)
 }
 
 .container-3baos1:after {
-	content: "v6.0.1";
+	content: "Hello, Friend";
 	left: 50%;
 	text-align: left;
 	opacity: 0;
