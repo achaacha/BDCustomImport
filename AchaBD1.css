@@ -1,4 +1,9 @@
-/*! Created by Acha, skeleton based from ClearVision Team. Thank you!*/
+/*! Tweaked by Acha, template based from ClearVision Team.
+This is only temporary to help me get a good visual understanding of what I'm looking to do with the theme.
+Thank you!
+
+Please visit https://betterdiscordlibrary.com/themes/ClearVision for the original.
+Their github: https://github.com/ClearVision/ClearVision-v6*/
 
 
 /*! Powered by DiscordSelectors v0.2.7 */
@@ -79,7 +84,7 @@
 	--home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
 	--home-position: center;
 	--home-size: 40px;
-  --borderWidth: 3px;
+	--borderWidth: 3px; /*New*/
 }
 
 .appMount-3lHmkl {
@@ -279,78 +284,6 @@ textarea,
 
 .notice-2FJMB4 .dismiss-SCAH9H:hover {
 	opacity: 1
-}
-
-.typeWindows-1za-n7 {
-	height: 18px;
-	width: 100vw;
-	margin: 0;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
-	box-shadow: 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * .6))
-}
-
-.typeWindows-1za-n7>.wordmark-2iDDfm {
-	position: static;
-	margin-right: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	opacity: 1;
-	pointer-events: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	order: 1
-}
-
-.typeWindows-1za-n7>.wordmark-2iDDfm:before,
-.typeWindows-1za-n7>.wordmark-2iDDfm:after {
-	margin-left: 3px;
-	font-weight: 600;
-	white-space: nowrap;
-	order: 1
-}
-
-/*Edits Header Area*/
-.typeWindows-1za-n7>.wordmark-2iDDfm:before {
-	content: "Acha's BD";
-	color: rgba(255, 255, 255, 0.7);
-	font-size: 14px;
-	text-shadow: 0 0 3px #000
-}
-
-.typeWindows-1za-n7>.wordmark-2iDDfm:after {
-	content: "v0.0.1";
-	color: rgba(255, 255, 255, 0.3);
-	font-family: var(--code-font);
-	font-size: 10px
-}
-
-.typeWindows-1za-n7>.wordmark-2iDDfm>svg {
-	-webkit-filter: drop-shadow(0 0 5px var(--main-color));
-	filter: drop-shadow(0 0 5px var(--main-color))
-}
-
-.typeWindows-1za-n7>.wordmark-2iDDfm>svg>path {
-	fill: var(--main-color)
-}
-
-.typeWindows-1za-n7>.winButton-iRh8-Z {
-	top: -2px;
-	opacity: .7;
-	transition: all .15s ease-in-out
-}
-
-.typeWindows-1za-n7>.winButton-iRh8-Z:hover {
-	background: rgba(255, 255, 255, 0.1);
-	opacity: 1
-}
-
-.typeWindows-1za-n7>.winButtonClose-1HsbF-:hover {
-	background: var(--danger-color)
 }
 
 .typeMacOS-3EmCyP {
@@ -1520,31 +1453,6 @@ ul.tree-3tCaw8 {
 	transition: all .5s ease-in-out
 }
 
-.container-3baos1:before {
-	content: "Don't forget";
-	right: 50%;
-	text-align: right;
-	transform: translateX(50%)
-}
-
-.container-3baos1:after {
-	content: "what made you.";
-	left: 50%;
-	text-align: left;
-	opacity: 0;
-	transform: translateX(50%) rotateX(90deg)
-}
-
-.container-3baos1:hover:before {
-	margin-right: 1px;
-	transform: none
-}
-
-.container-3baos1:hover:after {
-	margin-left: 1px;
-	opacity: 1;
-	transform: none
-}
 
 .container-3baos1 .avatar-SmRMf2 {
 	width: 32px !important;
@@ -2097,67 +2005,6 @@ ul.tree-3tCaw8 {
 .form-2fGMdU .charcounter {
 	color: rgba(255, 255, 255, 0.3)
 }
-
-.channelTextArea-2VhZ6z {
-	background: transparent;
-	transition: all .15s ease-in-out
-  border-radius: var(--borderWidth);
-}
-
-.channelTextArea-2VhZ6z:focus-within {
-  padding: 2px 2px;
-  background: linear-gradient(90deg, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,255,0,1), rgba(151,255,158,1), rgba(31,165,0,1));
-  border-radius: 8px;
-  animation: animatedgradient 10s ease alternate infinite;
-  background-size: 300% 300%;
-  z-index: -1;
-  margin-bottom: 20px !important;
-}
-
-/*Acha's Added Content to Template*/
-.channelTextArea-2VhZ6z:focus-within .scrollableContainer-2NUZem {
-  background: rgba(0,0,0,.95);
-}
-
-@keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -10;
-	margin-bottom: -21px;
-}
-
-#clockPluginClock {
-    position: absolute;
-    margin-top: -5px;
-    z-index: 101;
-    color: #20ae19;
-    top: 3%;
-    right: 50%;
-    left: 50%;
-    text-shadow: 0px 0px 15px #97fc91;
-    height: 50px;
-    width: 200px;
-    font-size: 2.5em;
-    font-weight: 400;
-    font-family: 'Space Mono', monospace;
-}
-/*End*/
 
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
 	background: rgba(0, 0, 0, 0.6);
@@ -11628,3 +11475,186 @@ textarea::-webkit-scrollbar {
 .channelHeader-3Gd2xq {
 	background-color: var(--backdrop-overlay)
 }
+
+
+/*---------------------------------
+|																	 |
+| Acha's Extra Content To Template |
+|																	 |
+----------------------------------*/
+
+/*-----------------Custom HTML files injected via Plugin----------------- (Make an import of this later)*/
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+	margin-bottom: -21px;
+}
+
+#clockPluginClock {
+  position: absolute;
+  margin-top: -5px;
+  z-index: 101;
+  color: #20ae19;
+  top: 3%;
+  right: 50%;
+  left: 50%;
+  text-shadow: 0px 0px 15px #97fc91;
+  height: 50px;
+  width: 200px;
+  font-size: 2.5em;
+  font-weight: 400;
+  font-family: 'Space Mono', monospace;
+}
+
+
+/*-------Animation Library-----------------(Make an import of this later)*/
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+/*-------------Heavy changes-----------------*/
+
+.channelTextArea-2VhZ6z:focus-within .scrollableContainer-2NUZem {
+  background: rgba(0,0,0,.95);
+}
+
+.channelTextArea-2VhZ6z {
+	background: transparent;
+	transition: all .15s ease-in-out
+  border-radius: var(--borderWidth);
+}
+
+.channelTextArea-2VhZ6z:focus-within {
+  padding: 2px 2px;
+  background: linear-gradient(160deg, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,255,0,1), rgba(151,255,158,1), rgba(31,165,0,1));
+  border-radius: 8px;
+  animation: animatedgradient 10s ease alternate infinite;
+  background-size: 300% 300%;
+  z-index: -1;
+  margin-bottom: 20px !important;
+}
+
+
+/*--------------Small changes-----------------------*/
+.typeWindows-1za-n7>.wordmark-2iDDfm:before {
+	content: "Luke Skywalker 2020";
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 14px;
+	text-shadow: 0 0 3px #000
+}
+.typeWindows-1za-n7 {
+	height: 18px;
+	width: 100vw;
+	margin: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+	box-shadow: 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * .6))
+}
+
+.typeWindows-1za-n7>.wordmark-2iDDfm {
+	position: static;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 1;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	order: 1
+}
+
+.typeWindows-1za-n7>.wordmark-2iDDfm:before,
+.typeWindows-1za-n7>.wordmark-2iDDfm:after {
+	margin-left: 3px;
+	font-weight: 600;
+	white-space: nowrap;
+	order: 1
+}
+
+
+.typeWindows-1za-n7>.wordmark-2iDDfm:after {
+	content: "v0.5.0";
+	color: rgba(255, 255, 255, 0.3);
+	font-family: var(--code-font);
+	font-size: 10px
+}
+
+.typeWindows-1za-n7>.wordmark-2iDDfm>svg {
+	-webkit-filter: drop-shadow(0 0 5px var(--main-color));
+	filter: drop-shadow(0 0 5px var(--main-color))
+}
+
+.typeWindows-1za-n7>.wordmark-2iDDfm>svg>path {
+	fill: var(--main-color)
+}
+
+.typeWindows-1za-n7>.winButton-iRh8-Z {
+	top: -2px;
+	opacity: .7;
+	transition: all .15s ease-in-out
+}
+
+.typeWindows-1za-n7>.winButton-iRh8-Z:hover {
+	background: rgba(255, 255, 255, 0.1);
+	opacity: 1
+}
+
+.typeWindows-1za-n7>.winButtonClose-1HsbF-:hover {
+	background: var(--danger-color)
+}
+
+.container-3baos1:before {
+	content: "May the force";
+	right: 50%;
+	text-align: right;
+	transform: translateX(50%)
+}
+
+.container-3baos1:after {
+	content: "be with you.";
+	left: 50%;
+	text-align: left;
+	opacity: 0;
+	transform: translateX(50%) rotateX(90deg)
+}
+
+.container-3baos1:hover:before {
+	margin-right: 1px;
+	transform: none
+}
+
+.container-3baos1:hover:after {
+	margin-left: 1px;
+	opacity: 1;
+	transform: none
+}
+
+
+
+/*---------------------------------
+|																	 |
+|               End                |
+|																	 |
+----------------------------------*/
